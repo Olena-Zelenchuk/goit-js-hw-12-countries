@@ -7,3 +7,30 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: var(--color-bg-canvas);
+}
+
+img {
+  max-width: 500px;
+}
+
+.country-container {
+  display: block;
+  font-size: 20px;
+}
+
+.about_country_box {
+  display: flex;
+}
+
+.country-name {
+  text-align: center;
+  font-size: 26px;
+}
+
+.country-descr {
+  font-size: 20px;
+  font-weight: bold;
+}
